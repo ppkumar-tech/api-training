@@ -4,7 +4,7 @@ info:
   version: v1
   description: Simple API to demo the API Builder in Postman
   contact:
-    name: Pavan Kumar
+    name: Pavan
     email: ppkumar@merkleinc.com
 servers:
   - url: http://localhost:3000

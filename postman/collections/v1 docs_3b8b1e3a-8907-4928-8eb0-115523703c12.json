@@ -59,7 +59,7 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "[\n  {\n    \"name\": \"Public Workspaces\",\n    \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n    \"views\": 7483\n  },\n  {\n    \"name\": \"Public Workspaces\",\n    \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n    \"views\": 7483\n  }\n]"
+                            "body": "[\n  {\n    \"name\": \"Public Workspaces\",\n    \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n    \"views\": 7483\n  },\n  {\n    \"name\": \"Public Workspaces\",\n    \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n    \"views\": 2\n  }\n]"
                         }
                     ]
                 },
@@ -130,7 +130,7 @@
                             ],
                             "cookie": [],
                             "responseTime": null,
-                            "body": "{\n  \"name\": \"Public Workspaces\",\n  \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n  \"views\": 7483\n}"
+                            "body": "{\n  \"name\": \"Public Workspaces\",\n  \"url\": \"https://www.youtube.com/watch?v=DjGbMdqnY64\",\n  \"views\": 1\n}"
                         }
                     ]
                 }
@@ -138,11 +138,33 @@
             "id": "2366d8a2-9134-40d3-93ff-73707c2cd41d"
         }
     ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "0f7c84a7-5bf3-48af-8c77-cda7f6c0b097",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "3d6ad44e-868b-49cb-aa85-1ba62a18bb47",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
     "variable": [
         {
-            "id": "45befb13-aefc-4cf4-a1ab-a2789a731a36",
+            "id": "ffa9f9a4-3dcb-49d5-971d-7d32bc81ee1c",
             "key": "baseUrl",
-            "value": "http://localhost:3000",
+            "value": "https://199a8462-2c9e-4d94-a5e4-ce28f251f42a.mock.pstmn.io",
             "type": "string"
         }
     ]
