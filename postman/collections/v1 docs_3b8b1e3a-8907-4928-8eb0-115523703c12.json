@@ -135,7 +135,31 @@
                     ]
                 }
             ],
-            "id": "2366d8a2-9134-40d3-93ff-73707c2cd41d"
+            "id": "2366d8a2-9134-40d3-93ff-73707c2cd41d",
+            "event": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "id": "cf118b30-882a-4d16-bd1c-c97ea8cf8cb6",
+                        "type": "text/javascript",
+                        "exec": [
+                            ""
+                        ]
+                    }
+                },
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "415161b0-2032-4cae-8eb2-9f6a2ab5e55a",
+                        "type": "text/javascript",
+                        "exec": [
+                            "pm.test(\"Status code is 200\", function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});"
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "event": [
@@ -162,7 +186,7 @@
     ],
     "variable": [
         {
-            "id": "ffa9f9a4-3dcb-49d5-971d-7d32bc81ee1c",
+            "id": "b70b0492-e8da-41bf-b6d4-444c6db4e770",
             "key": "baseUrl",
             "value": "https://199a8462-2c9e-4d94-a5e4-ce28f251f42a.mock.pstmn.io",
             "type": "string"
